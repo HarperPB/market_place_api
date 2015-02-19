@@ -24,6 +24,12 @@ gem 'active_model_serializers'
 # Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
 gem 'spring',        group: :development
 
+group :test do
+  gem "rspec-rails"
+  gem "factory_girl_rails"
+  gem 'ffaker'
+end
+
 # group :doc do
   # bundle exec rake doc:rails generates the API under doc/api.
 # gem 'sdoc', require: false end
